@@ -10,7 +10,7 @@ var rows2 = null;
 function init(){
 	cols1 = ge('cols1');  
 	cols1.onchange = function(){
-		replaceText(rows2, tghis.value);
+		replaceText(rows2, this.value);
 	}
 	cols2 = ge('cols2');
 	rows1 = ge('rows1');
